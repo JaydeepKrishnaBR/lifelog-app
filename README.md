@@ -53,6 +53,12 @@ A modern, interactive journaling app that helps you log your mood, photos, perso
 
 ---
 
+### 🖼️ Demo Screenshots
+
+> ![entry-1752473551544_page-0001](https://github.com/user-attachments/assets/df1b7909-9ab0-4b36-8afb-4ad80c720acf)
+
+---
+
 ### 🚀 Getting Started
 
 ```bash
