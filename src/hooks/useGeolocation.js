@@ -1,4 +1,3 @@
-// src/hooks/useGeolocation.js
 import { useState, useEffect } from "react";
 
 const useGeolocation = () => {

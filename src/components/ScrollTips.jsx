@@ -1,4 +1,3 @@
-// src/components/ScrollTips.jsx
 import React, { useRef, useEffect, useState } from "react";
 import { Alert, Fade } from "@mui/material";
 

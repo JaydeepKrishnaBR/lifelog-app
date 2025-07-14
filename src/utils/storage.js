@@ -1,4 +1,3 @@
-// src/utils/storage.js
 const KEY = "lifelog_entries";
 
 export const saveEntry = (entry) => {

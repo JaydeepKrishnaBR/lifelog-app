@@ -1,5 +1,3 @@
-// src/pages/Home.jsx
-
 import React, { useRef } from "react";
 import { getEntries } from "../utils/storage";
 import {
@@ -12,7 +10,7 @@ import {
 } from "@mui/material";
 import { Link } from "react-router-dom";
 import ExportPDF from "../components/ExportPDF";
-import LocationMap from "../components/LocationMap"; // ✅ Import Map Component
+import LocationMap from "../components/LocationMap"; //  Import Map Component
 
 export default function Home() {
   const entries = getEntries();
@@ -86,7 +84,7 @@ export default function Home() {
                   </Box>
                 )}
 
-                {/* 🗺️ Show Map */}
+                {/*  Show Map */}
                 {entry.location && (
                   <Box sx={{ mt: 2 }}>
                     <Typography variant="caption" color="textSecondary">
@@ -96,7 +94,7 @@ export default function Home() {
                   </Box>
                 )}
 
-                {/* 📄 PDF Export */}
+                {/*  PDF Export */}
                 <ExportPDF
                   targetRef={entryRefs.current[index]}
                   filename={`entry-${entry.id}.pdf`}

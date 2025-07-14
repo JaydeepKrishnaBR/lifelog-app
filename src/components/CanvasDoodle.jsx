@@ -1,4 +1,3 @@
-// src/components/CanvasDoodle.jsx
 import React, { useRef, useEffect, useState } from "react";
 import { Box, Typography, Button, Stack } from "@mui/material";
 

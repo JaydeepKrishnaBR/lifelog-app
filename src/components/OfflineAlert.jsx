@@ -1,4 +1,3 @@
-// src/components/OfflineAlert.jsx
 import React, { useEffect, useState } from "react";
 import { Alert } from "@mui/material";
 

@@ -1,4 +1,3 @@
-// src/pages/NewEntry.jsx
 import React, { useState } from "react";
 import { Button, TextField, Container, Typography, Box } from "@mui/material";
 import useGeolocation from "../hooks/useGeolocation";

@@ -1,4 +1,3 @@
-// src/components/MoodPicker.jsx
 import React from "react";
 import { ToggleButtonGroup, ToggleButton } from "@mui/material";
 
